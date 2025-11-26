@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11217.181 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prog", "prog\prog.vcxproj", "{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "analysis", "analysis\analysis.pyproj", "{7808147E-BE61-4861-9110-83E68CD22AB7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcxproj", "{F3473898-03FF-4E73-8A9B-F470479E4A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{AF96E0C8-0D8D-4A4F-AD06-A8D3290030E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{40498BB9-DC51-4E25-B8DB-401A193DBBFA}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\cpp-tests.yml = .github\workflows\cpp-tests.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{A11B71AB-D61B-49B6-A5A7-FC93237C523C}"
+	ProjectSection(SolutionItems) = preProject
+		CMakeLists.txt = CMakeLists.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Debug|Any CPU.Build.0 = Debug|x64
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Debug|x64.ActiveCfg = Debug|x64
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Debug|x64.Build.0 = Debug|x64
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Debug|x86.Build.0 = Debug|Win32
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Release|Any CPU.ActiveCfg = Release|x64
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Release|Any CPU.Build.0 = Release|x64
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Release|x64.ActiveCfg = Release|x64
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Release|x64.Build.0 = Release|x64
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Release|x86.ActiveCfg = Release|Win32
+		{EE32F764-DAB6-4033-BF9A-5CECD3ABF255}.Release|x86.Build.0 = Release|Win32
+		{7808147E-BE61-4861-9110-83E68CD22AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7808147E-BE61-4861-9110-83E68CD22AB7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7808147E-BE61-4861-9110-83E68CD22AB7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7808147E-BE61-4861-9110-83E68CD22AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7808147E-BE61-4861-9110-83E68CD22AB7}.Release|x64.ActiveCfg = Release|Any CPU
+		{7808147E-BE61-4861-9110-83E68CD22AB7}.Release|x86.ActiveCfg = Release|Any CPU
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Debug|Any CPU.Build.0 = Debug|x64
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Debug|x64.ActiveCfg = Debug|x64
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Debug|x64.Build.0 = Debug|x64
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Debug|x86.Build.0 = Debug|Win32
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Release|Any CPU.ActiveCfg = Release|x64
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Release|Any CPU.Build.0 = Release|x64
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Release|x64.ActiveCfg = Release|x64
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Release|x64.Build.0 = Release|x64
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Release|x86.ActiveCfg = Release|Win32
+		{F3473898-03FF-4E73-8A9B-F470479E4A4F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40498BB9-DC51-4E25-B8DB-401A193DBBFA} = {AF96E0C8-0D8D-4A4F-AD06-A8D3290030E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44B072AC-228C-43F8-97E6-253489485AA5}
+	EndGlobalSection
+EndGlobal
