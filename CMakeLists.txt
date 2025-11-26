@@ -24,7 +24,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_executable(tests
-    tests/test.cpp
+    tests/tests.cpp
 )
 
 target_link_libraries(tests
