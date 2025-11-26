@@ -27,6 +27,8 @@ add_executable(tests
     tests/tests.cpp
 )
 
+target_include_directories(tests PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/prog)
+
 target_link_libraries(tests
     PRIVATE
         gtest
